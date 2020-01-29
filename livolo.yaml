@@ -1,0 +1,88 @@
+
+
+switch:
+- platform: custom
+  lambda: |-
+    auto lvA1 = new LivoloSwitch(5,6400,0);
+    auto lvA2 = new LivoloSwitch(5,6400,12);
+    auto lvA3 = new LivoloSwitch(5,6400,24);
+    auto lvA4 = new LivoloSwitch(5,6400,40);
+    auto lvA5 = new LivoloSwitch(5,6400,48);
+    auto lvA6 = new LivoloSwitch(5,6400,72);
+    auto lvA7 = new LivoloSwitch(5,6400,80);
+    auto lvA8 = new LivoloSwitch(5,6400,96);
+    auto lvA9 = new LivoloSwitch(5,6400,108);
+    auto lvA10 = new LivoloSwitch(5,6400,120);
+    auto lvB1 = new LivoloSwitch(5,7400,0);
+    auto lvB2 = new LivoloSwitch(5,7400,12);
+    auto lvB3 = new LivoloSwitch(5,7400,24);
+    auto lvB4 = new LivoloSwitch(5,7400,40);
+    auto lvB5 = new LivoloSwitch(5,7400,48);
+    auto lvB6 = new LivoloSwitch(5,7400,72);
+    auto lvB7 = new LivoloSwitch(5,7400,80);
+    auto lvB8 = new LivoloSwitch(5,7400,96);
+    auto lvB9 = new LivoloSwitch(5,7400,108);
+    auto lvB10 = new LivoloSwitch(5,7400,120);    
+    App.register_component(lvA1);
+    App.register_component(lvA2);
+    App.register_component(lvA3);
+    App.register_component(lvA4);        
+    App.register_component(lvA5);
+    App.register_component(lvA6);
+    App.register_component(lvA7);
+    App.register_component(lvA8);        
+    App.register_component(lvA9);        
+    App.register_component(lvA10);        
+    App.register_component(lvB1);
+    App.register_component(lvB2);
+    App.register_component(lvB3);
+    App.register_component(lvB4);        
+    App.register_component(lvB5);
+    App.register_component(lvB6);
+    App.register_component(lvB7);
+    App.register_component(lvB8);        
+    App.register_component(lvB9);        
+    App.register_component(lvB10);     
+    return {lvA1,lvA2,lvA3,lvA4,lvA5,lvA6,lvA7,lvA8,lvA9,lvA10,lvB1,lvB2,lvB3,lvB4,lvB5,lvB6,lvB7,lvB8,lvB9,lvB10};
+  switches:
+    - name: "Livolo A 1"
+      id: livoloA1
+    - name: "Livolo A 2"
+      id: livoloA2
+    - name: "Livolo A 3"
+      id: livoloA3
+    - name: "Livolo A 4"
+      id: livoloA4
+    - name: "Livolo A 5"
+      id: livoloA5
+    - name: "Livolo A 6"
+      id: livoloA6
+    - name: "Livolo A 7"
+      id: livoloA7
+    - name: "Livolo A 8"
+      id: livoloA8
+    - name: "Livolo A 9"
+      id: livoloA9
+    - name: "Livolo A 10"
+      id: livoloA10
+    - name: "Livolo B 1"
+      id: livoloB1
+    - name: "Livolo B 2"
+      id: livoloB2
+    - name: "Livolo B 3"
+      id: livoloB3
+    - name: "Livolo B 4"
+      id: livoloB4
+    - name: "Livolo B 5"
+      id: livoloB5
+    - name: "Livolo B 6"
+      id: livoloB6
+    - name: "Livolo B 7"
+      id: livoloB7
+    - name: "Livolo B 8"
+      id: livoloB8
+    - name: "Livolo B 9"
+      id: livoloB9
+    - name: "Livolo B 10"
+      id: livoloB10
+
