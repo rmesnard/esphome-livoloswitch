@@ -30,7 +30,7 @@ Livolo switch work with a code composed in two parts :
 
 The component syntax (in the lambda code ) is : 
 
-auto xxx = new LivoloSwitch(<PIN TO RF EMMITER>,<REMOTE ID>,<BUTTON ID>);
+auto xxx = new LivoloSwitch(PIN_TO_RF_EMMITER,REMOTE_ID,BUTTON_ID);
 
 This component also work with the core component RF Transmitter enable, sharing the same PIN.
 
