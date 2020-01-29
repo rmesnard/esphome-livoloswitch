@@ -34,6 +34,14 @@ auto xxx = new LivoloSwitch(PIN_TO_RF_EMMITER,REMOTE_ID,BUTTON_ID);
 ```
 This component also work with the core component RF Transmitter enabled, sharing the same PIN.
 
+## Tech tips
+
+Enable the ESPHome webserver to create a webpage that you can use quickly to learn the remote code to your switches.
+
+```
+web_server:
+  port: 80
+```
 
 ## References
 
